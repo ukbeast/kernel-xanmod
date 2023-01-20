@@ -19,7 +19,7 @@ Name: kernel%{?flavor:-%{flavor}}
 Summary: The Linux Kernel with XanMod Patches
 
 %define _basekver 6.1
-%define _stablekver 3
+%define _stablekver 7
 Version: %{_basekver}.%{_stablekver}
 
 %define customver 1
